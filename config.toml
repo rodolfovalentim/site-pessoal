@@ -1,62 +1,119 @@
-baseURL = "https://rodolfovalentim.github.io/"
-languageCode = "en-us"
-title = "Minimal"
-theme = "minimal"
-disqusShortname = "username" # delete this to disable disqus comments
-googleAnalytics = ""
+baseurl = "https://rodolfovalentim.github.io/"
+title = "Portfolio's Rodolfo Valentim"
+googleAnalytics = "UA-78770190-1"
+
+theme = "hugo-coder"
+
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+paginate = 20
+canonifyurls = true
+
+pygmentsstyle = "b2"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
 
 [params]
-    author = "Calin Tataru"
-    description = "Personal blog theme powered by Hugo"
-    githubUsername = "#"
-    accent = "red"
-    showBorder = true
-    backgroundColor = "white"
-    font = "Raleway" # should match the name on Google Fonts!
-    highlight = true
-    highlightStyle = "solarized-dark"
-    highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift"]
+    author = "Rodolfo Valentim"
+    description = "Rodolfo's personal website"
+    keywords = "blog,developer,personal"
+    info = "Msc. Computer Net"
+    avatarurl = "images/avatar.jpg"
+    footercontent = ""
 
-[[menu.main]]
-    url = "/"
-    name = "Home"
+    dateformat = "January 2, 2006"
+
+    hideCredits = false
+    hideCopyright = false
+
+    # Git Commit in Footer, uncomment the line below to enable it.
+    commit = "https://github.com/luizdepra/hugo-coder/tree/"
+
+    rtl = false
+
+    # Use inverted colors
+    inverted = false
+
+    # Series see also post count
+    maxSeeAlsoItems = 5
+
+    # Custom CSS
+    custom_css = []
+
+[taxonomies]
+  series = "series"
+
+[[params.social]]
+    name = "Github"
+    icon = "fab fa-github"
     weight = 1
+    url = "https://github.com/rodolfovalentim/"
 
-[[menu.main]]
-    url = "/post/"
-    name = "Posts"
-    weight = 2
+[languages]
+    [languages.en]
+        languagename = "English"
 
-[[menu.main]]
-    url = "/project/"
-    name = "Projects"
-    weight = 3
+        [[languages.en.menu.main]]
+        name = "About"
+        weight = 1
+        url = "/about/"
 
-# Social icons to be shown on the right-hand side of the navigation bar
-# The "name" field should match the name of the icon to be used
-# The list of available icons can be found at https://fontawesome.io/icons/
+        [[languages.en.menu.main]]
+        name = "Blog"
+        weight = 2
+        url = "/posts/"
 
-[[menu.icon]]
-    url = "mailto:me@example.com"
-    name = "envelope-o"
-    weight = 1
+        [[languages.en.menu.main]]
+        name = "Projects"
+        weight = 3
+        url = "/projects/"
 
-[[menu.icon]]
-    url = "https://github.com/username/"
-    name = "github"
-    weight = 2
+        [[languages.en.menu.main]]
+        name = "Research"
+        weight = 4
+        url = "/research/"
 
-[[menu.icon]]
-    url = "https://twitter.com/username/"
-    name = "twitter"
-    weight = 3
+        [[languages.en.menu.main]]
+        name = "Contact me"
+        weight = 5
+        url = "/contact/"
 
-[[menu.icon]]
-    url = "https://www.linkedin.com/in/username/"
-    name = "linkedin"
-    weight = 4
 
-[[menu.icon]]
-    url = "https://www.stackoverflow.com/username/"
-    name = "stack-overflow"
-    weight = 5
+    [languages.pt-br]
+        languagename = "Português"
+        title = "Portifólio Rodolfo Valentim"
+
+        [languages.pt-br.params]
+            author = "João Ninguém"
+            info = "Full Stack DevOps e Mágico"
+            description = "Sítio pessoal de João Ninguém"
+            keywords = "blog,desenvolvedor,pessoal"
+            footercontent = "Coloque algum texto aqui."
+
+        [languages.pt-br.menu]
+
+            [[languages.pt-br.menu.main]]
+            name = "Sobre"
+            weight = 1
+            url = "/pt-br/about/"
+
+            [[languages.pt-br.menu.main]]
+            name = "Blog"
+            weight = 2
+            url = "/pt-br/posts/"
+
+            [[languages.pt-br.menu.main]]
+            name = "Projetos"
+            weight = 3
+            url = "/pt-br/projects/"
+
+            [[languages.pt-br.menu.main]]
+            name = "Pesquisa"
+            weight = 4
+            url = "/pt-br/research/"
+
+            [[languages.pt-br.menu.main]]
+            name = "Contato"
+            weight = 5
+            url = "/pt-br/contact/"
