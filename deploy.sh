@@ -1,4 +1,7 @@
-hugo
+hugo -t hugo-coder
+
+echo ~/
+
 rm -rf ../rodolfovalentim.github.io
 cp public/* ../rodolfovalentim.github.io
 
