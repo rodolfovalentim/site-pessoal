@@ -3,26 +3,39 @@ title = "About Rodolfo"
 slug = "about"
 +++
 
-Hugo is a static site engine written in Go.
+## Education
 
-It makes use of a variety of open source projects including:
+- **M.Sc. in Computer Sciente - Computer Networks** \\
+  [Federal University of Espírito Santo](http://www.ufes.br) - Vitória, ES, Brazil \\
+  _2018 - Present_
 
-- [Cobra](https://github.com/spf13/cobra)
-- [Viper](https://github.com/spf13/viper)
-- [J Walter Weatherman](https://github.com/spf13/jWalterWeatherman)
-- [Cast](https://github.com/spf13/cast)
+- **Graduated in Computer Engineering** \\
+  [Federal University of Espírito Santo](http://www.ufes.br) - Vitória, ES, Brazil \\
+  _2012 - 2017_
 
-Learn more and contribute on [GitHub](https://github.com/spf13).
+## Professional and Academic Experience
 
-## Setup
+- **Researcher/MSc. student at the UFES Software Defined Networks Research Group** \\
+  [NERDS, UFES](http://nerds.ufes.br/) - Vitória, ES, Brazil \\
+  _2017 - Present_
 
-Some fun facts about [Hugo](http://gohugo.io/):
+  - Research project relate to Load Balancing in Cloud Environment \\
+  - Research project relate to Service Function Chaining in Cloud Environment \\
+  - Research project on Network Functions Virtualization using OpenStack \\
 
-- Built in [Go](http://golang.org/)
-- Loosely inspired by [Jekyll](http://jekyllrb.com/)
-- Primarily developed by [spf13](http://spf13.com/) on the train while commuting to and from Manhattan.
-- Coded in [Vim](http://vim.org) using [spf13-vim](http://vim.spf13.com/)
+- **Researcher/B.Sc. student at the UFES Software Defined Networks Research Group** \\
+  [NERDS, UFES](http://nerds.ufes.br/) - Vitória, ES, Brazil \\
+  _2016 - 2017_
 
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/spf13/hugo/issues/new) or [ask me on Twitter](https://twitter.com/spf13).
+  - Research project relate to Service Function Chaining in Cloud Environment \\
 
-Thanks for reading!
+- **Internship at the Division of Assistive Robotics** \\
+  [VixSystem](https://www.vixsystem.com.br/) - Vitória, ES, Brazil \\
+  _09/2017 - 02/2018_
+
+  - Development of a robotic solution for indoor navigation to guide visually impaired people using image processing \\
+
+- **Exchange Student on the Capes/BRANETEC Program** \\
+  [Hanze Institute of Technology](https://www.hanze.nl/eng/education/engineering/school-of-engineering) - Assen, Netherlands \\
+  _02/2015 - 02/2016_
+  - Scholarship holder at Hanze Institute of Technology in the Netherlands \\

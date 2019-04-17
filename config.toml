@@ -18,7 +18,7 @@ pygmentscodefencesguesssyntax = true
     author = "Rodolfo Valentim"
     description = "Rodolfo's personal website"
     keywords = "blog,developer,personal"
-    info = "Msc. Computer Net"
+    info = "Computer Engineer and Developer "
     avatarurl = "images/avatar.jpg"
     footercontent = ""
 
@@ -85,11 +85,11 @@ pygmentscodefencesguesssyntax = true
         title = "Portifólio Rodolfo Valentim"
 
         [languages.pt-br.params]
-            author = "João Ninguém"
-            info = "Full Stack DevOps e Mágico"
-            description = "Sítio pessoal de João Ninguém"
+            author = "Rodolfo Valentim"
+            info = "Engenheiro de Computação e Desenvolvedor"
+            description = "Portifólio de Rodolfo Valentim"
             keywords = "blog,desenvolvedor,pessoal"
-            footercontent = "Coloque algum texto aqui."
+            footercontent = ""
 
         [languages.pt-br.menu]
 
