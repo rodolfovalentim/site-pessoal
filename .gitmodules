@@ -7,3 +7,6 @@
 [submodule "hugo-coder"]
 	path = hugo-coder
 	url = https://github.com/luizdepra/hugo-coder.git
+[submodule "themes/minimal"]
+	path = themes/minimal
+	url = https://github.com/calintat/minimal.git
